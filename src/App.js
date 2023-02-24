@@ -1,4 +1,4 @@
-import jug from './assets/jug.jpg'
+import jug from './assets/images/jug.jpg'
 import './App.css';
 
 function App() {
