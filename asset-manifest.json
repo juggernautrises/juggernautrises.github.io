@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/juggernautrises.github.io/static/css/main.d348b2cf.css",
-    "main.js": "/juggernautrises.github.io/static/js/main.d49fd6db.js",
-    "static/js/787.4191a0bd.chunk.js": "/juggernautrises.github.io/static/js/787.4191a0bd.chunk.js",
-    "static/media/jug.jpg": "/juggernautrises.github.io/static/media/jug.fc47dfb3b1f500539a77.jpg",
-    "index.html": "/juggernautrises.github.io/index.html",
-    "main.d348b2cf.css.map": "/juggernautrises.github.io/static/css/main.d348b2cf.css.map",
-    "main.d49fd6db.js.map": "/juggernautrises.github.io/static/js/main.d49fd6db.js.map",
-    "787.4191a0bd.chunk.js.map": "/juggernautrises.github.io/static/js/787.4191a0bd.chunk.js.map"
+    "main.css": "/static/css/main.d348b2cf.css",
+    "main.js": "/static/js/main.5103ccb5.js",
+    "static/js/787.4191a0bd.chunk.js": "/static/js/787.4191a0bd.chunk.js",
+    "static/media/jug.jpg": "/static/media/jug.fc47dfb3b1f500539a77.jpg",
+    "index.html": "/index.html",
+    "main.d348b2cf.css.map": "/static/css/main.d348b2cf.css.map",
+    "main.5103ccb5.js.map": "/static/js/main.5103ccb5.js.map",
+    "787.4191a0bd.chunk.js.map": "/static/js/787.4191a0bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d348b2cf.css",
-    "static/js/main.d49fd6db.js"
+    "static/js/main.5103ccb5.js"
   ]
 }
