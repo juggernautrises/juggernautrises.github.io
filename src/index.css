@@ -1,13 +1,144 @@
+html {
+  background-color: #212529;
+  color: white;
+
+}
+
+header {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin: 0 0 0 4px;
+  padding-bottom: 15px;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #212529;
+  color: white;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.placeholder {
+  padding-left: 45px;
+  padding-top: 30px;
+}
+
+.simple-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+
+}
+
+.content-container {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 30%;
+}
+
+.api-status {
+  padding-left: 15px;
+  padding-right: 5px;
+  font-size: 10px;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.athlete-container {
+  display: flex;
+}
+
+.profile-container {
+  border: 1px blue solid;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* .profile{
+  border: 1px blue solid;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1;
+} */
+
+.profile-image {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.goals-container {
+  border: 1px blue solid;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.goals-title {
+  color: lightgreen;
+  font-weight: bold;
+
+}
+
+.goal-stats {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+
+}
+
+.goal-progress {
+  font-size: 14px;
+  ;
+}
+
+.goal-spinner {
+  text-align: center;
+}
+
+.ride-goal {
+  padding-bottom: 15px;
+}
+
+.stats-container {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.peaks {
+  color: darkgoldenrod;
+  font-weight: bold;
 }
