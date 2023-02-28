@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react'
-import gh from '../assets/icons/GitHub-Mark-Light-64px.png'
-import imdb from '../assets/icons/imdb.png'
-import li from '../assets/icons/LI-In-Bug.png'
+
 
 
 const Link = ({ icon, width, height, target, alt, url }) => {
@@ -31,9 +29,9 @@ Link.defaultProps = {
 const Links = () => {
     return (
         <div>
-            <Link icon={li} width={45} url="https://www.linkedin.com/in/ash-nayar/" />
-            <Link icon={gh} url="http://github.com/juggernautrises" />
-            <Link icon={imdb} url="https://www.imdb.com/name/nm2363452/" />
+            <Link icon="/images/LI-In-Bug.png" width={45} url="https://www.linkedin.com/in/ash-nayar/" />
+            <Link icon="/images/GitHub-Mark-Light-64px.png" url="http://github.com/juggernautrises" />
+            <Link icon="/images/imdb.png" url="https://www.imdb.com/name/nm2363452/" />
         </div>
     )
 }
