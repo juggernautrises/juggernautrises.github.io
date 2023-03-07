@@ -10,13 +10,13 @@ export default function Navbar() {
                     <div className="ml-3 text-xl">ash nayar</div>
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-                    <a href="http://github.com/juggernautrises" target="_blank" className="mr-5 hover:text-white">
+                    <a href="http://github.com/juggernautrises" target="_blank" rel="noreferrer" className="mr-5 hover:text-white">
                         <img src={github} width="45px" alt="github" />
                     </a>
-                    <a href="https://www.linkedin.com/in/ash-nayar/" target="_blank" className="mr-5 hover:text-white">
+                    <a href="https://www.linkedin.com/in/ash-nayar/" target="_blank" rel="noreferrer" className="mr-5 hover:text-white">
                         <img src={linkedin} width="50px" alt="linkedin" />
                     </a>
-                    <a href="https://www.imdb.com/name/nm2363452/" target="_blank" className="mr-5 hover:text-white">
+                    <a href="https://www.imdb.com/name/nm2363452/" target="_blank" rel="noreferrer" className="mr-5 hover:text-white">
                         <img src={imdb} width="45px" alt="imdb" />
                     </a>
                 </nav>
