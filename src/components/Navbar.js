@@ -2,7 +2,12 @@ import React from "react";
 import github from "../assets/icons/GitHub-Mark-Light-64px.png"
 import linkedin from "../assets/icons/LI-In-Bug.png"
 import imdb from "../assets/icons/imdb.png"
+
 export default function Navbar() {
+    const date = new Date()
+    const [isWednesday, setWednesday] = React.useState(date.getDay() === 3)
+    const wedImage = isWednesday ? "./images/wednesday.png" : "./images/tuesday.png"
+    const wedTitle = isWednesday ? "It is Wednesday, my dudes!" : "It is not Wednesday, my dudes 😢"
     return (
         <header className="bg-gray-800 md:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -20,8 +25,7 @@ export default function Navbar() {
                         <img src={imdb} width="45px" alt="imdb" />
                     </a>
                 </nav>
-                <div></div>
-
+                <div><img src={wedImage} alt={wedTitle} title={wedTitle} /></div>
             </div>
         </header>
     )

@@ -1,15 +1,13 @@
-import About from "./components/About"
-import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
-
-
+import { Route, Routes } from "react-router"
+import Home from "./components/Home"
+import SandBox from "./components/SandBox"
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/sandbox" element={<SandBox />} />
+    </Routes>
+
   )
 }
 
